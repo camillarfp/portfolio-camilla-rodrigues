@@ -1,0 +1,64 @@
+/* FORMATAÇÕES GERAIS */
+body {
+    font-family: "Poppins", sans-serif;
+    background: linear-gradient(to right, #14031f, #3b2237) !important;
+}
+
+
+/* navbar */
+.navbar {
+    background: linear-gradient(to right, #14031f, #3b2237) !important;
+    padding: 20px 20px;
+}
+
+.nav-brand {
+    font-family: "Space Mono", sans-serif;
+    font-weight: 400;
+    color: white;
+    font-size: 1em;
+    text-decoration: none;
+}
+
+/* animação da nav-brand */
+.hello-animation {
+    font-family: "Space Mono", monospace;
+    white-space: nowrap;
+    overflow: hidden;
+
+    animation: typing 3s steps(16, end) 1s forwards;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 16ch; /* ajusta conforme o número de caracteres da frase */
+    }
+}
+
+/* nevagação */
+.navbar .nav-link {
+    color: white !important;
+    transition: color 0.5s ease; 
+}
+
+.navbar .nav-link:hover {
+    color: rgb(233, 232, 158) !important;
+}
+
+.navbar-toggler {
+    background-color: rgb(52, 23, 56) !important; /* Define a cor de fundo */
+    width: 50px; 
+    height: 40px;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active {
+    box-shadow: none; /* Remove o contorno azul ao clicar */
+}
+
+.navbar-toggler-icon {
+    filter: invert(1); /* Inverte as cores para branco */
+    width: 25px; /* Largura do ícone */
+}
