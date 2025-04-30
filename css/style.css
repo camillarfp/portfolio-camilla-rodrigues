@@ -197,8 +197,8 @@ body {
     list-style: none;
     display: flex;
     flex-wrap: wrap;
-    gap: 40px; /* espaçamento entre os cards */
-    margin-bottom: 24px;
+    gap: 46px; /* espaçamento entre os cards */
+    margin-bottom: 40px;
 }
 
 .contact-about {
