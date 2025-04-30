@@ -184,6 +184,50 @@
   
             </div> <!-- fim linha de cards -->
         </div> <!-- fim container projects -->
+
+        <!-- container contact -->
+      <div class="container content d-flex justify-content-center align-items-center  flex-column mt-3" id="contact">
+        <div class="row justify-content-center align-items-center text-center mt-5">
+            
+            <div class="col"> 
+                <h3 class="section-heading mb-5">Entre em
+                  <span class="title-underline">contato</span>
+                </h3>
+            </div> 
+        </div>
+
+        <div class="row justify-content-center align-items-center text-center mt-5">
+          <div class="col list-contacts">
+            <a class="contact" href="mailto:camillarodriguesfp2@gmail.com" target="_blank">
+              <img src="assets/img/email-envelope-line-white-icon.png" alt="" class="contact-icon">
+            </a>
+            <a class="contact" href="https://www.linkedin.com/in/camillarodriguesfp/" target="_blank">  
+              <img src="assets/img/linkedin-app-white-icon.png" alt="" class="contact-icon">
+            </a>
+            <a class="contact" href="https://github.com/camillarfp" target="_blank">
+              <img src="assets/img/github-white-icon.png" alt="" class="contact-icon">
+            </a>
+          </div>
+        </div>
+
+        <div class="row justify-content-center align-items-center text-center mt-5">
+          <div class="col">
+            <div class="contact-text">
+              <p>Estou sempre aberta a novas oportunidades e colaborações, fique à vontade para entrar em contato!</p>
+            </div>
+          </div>
+
+        </div>
+      </div> <!-- fim container contact -->
     </main>
+
+    <footer class="text-center">
+        <p>&copy; <span id="year"></span> Camilla Rodrigues. Todos os direitos reservados.</p>
+    </footer>
+
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
