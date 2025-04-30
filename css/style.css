@@ -183,3 +183,176 @@ body {
     border-radius: 50%;
     border: 1px solid rgba(128, 128, 128, 0.082);
 }
+
+/* SECTION SKILLS */
+#skills {
+    display: flex;
+    justify-content: center; /* horizontal */
+    align-items: center; /* vertical */
+    padding: 5rem 0; /* adiciona espaço acima e abaixo para evitar ficar muito baixo */
+}
+
+#skills .section-heading {
+    margin-top: 18%;
+
+}
+
+.group-cards {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    margin-top: 18px;
+}
+
+.card-heading {
+    color: #fff;
+    font-size: 1.1em;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    margin: 4px 0;
+    text-align: center;
+}
+
+.card-skill {
+    background: rgba(73, 73, 73, 0.178);
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(37, 36, 36, 0.151);
+    transition: transform 0.3s ease;
+    padding: 10px;
+    margin: auto;
+    
+    width: 100%;
+    max-width: 200px; 
+    height: 80%; 
+}
+
+.card-skill:hover {
+    transform: scale(1.05);
+}
+
+.list-skills {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    gap: 8px;
+    padding: 12px;
+}
+
+.list-skills-item {
+    font-size: 1em;
+    font-family: "Nunito", sans-serif;
+    font-weight: 400;
+    text-align: center;
+    color: #fff;
+    border-bottom: 1px solid rgba(233, 233, 227, 0.065);
+    padding: 6px 0;
+}
+
+.last-item {
+    border: none;
+}
+
+
+/* PROJETOS */
+#projects {
+    margin-top: 6%;
+}
+
+#projects .section-heading {
+    margin-top: 10%;
+
+}
+
+.group-cards-projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* horizontal */
+    align-items: center; /* vertical */
+    gap: 50px; /* espaçamento entre os cards */
+}
+
+
+.project-link {
+    text-decoration: none;
+    color: white;
+
+    transition: transform 0.3s ease;
+}
+
+.project-link:hover {
+    text-decoration: none;
+    transform: scale(1.05);
+    
+}
+
+.project-card {
+    background: rgba(73, 73, 73, 0.178);
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(37, 36, 36, 0.151);
+
+    margin: auto;
+
+    width: 300px; 
+    
+    height: 420px; 
+
+    overflow: hidden; /* mantém o conteúdo dentro do card */
+}
+
+.project-img {
+    width: 100%; /* ocupa toda a largura do card */
+    height: 180px; 
+    object-fit: fill;;
+}
+
+.title-project {
+    color: #fff;
+    font-size: 1.1em;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    
+    padding: 6px 0;
+    margin-top: 10px;
+    text-align: center;
+   
+}
+
+.project-description {
+    color: #fff;
+    font-size: 0.9em;
+    font-family: "Nunito", sans-serif;
+
+    padding: 0 1px;
+    margin: 0 8px; 
+
+    font-weight: 400;
+    text-align: center;
+    
+}
+
+.project-skill-list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: center;
+    align-items: center;
+
+    padding: 10px 0;
+}
+
+.project-skill {
+    color: #fff;
+    background: rgba(73, 73, 73, 0.178);
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(37, 36, 36, 0.151);
+
+    padding: 6px 12px;
+    margin: 4px;
+
+    font-size: 0.8em;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+}
