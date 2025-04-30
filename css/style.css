@@ -356,3 +356,71 @@ body {
     font-family: "Poppins", sans-serif;
     font-weight: 300;
 }
+
+/* CONTATO */
+#contact {
+    margin-top: 6%;
+}
+
+.list-contacts {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px; /* espaçamento entre os cards */
+    margin-bottom: 24px;
+}
+
+.contact {
+    background: rgba(73, 73, 73, 0.178);
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(37, 36, 36, 0.151);
+
+    padding: 15px;
+     
+
+    display: flex;
+    justify-content: center; /* horizontal */
+    align-items: center; /* vertical */
+
+    transition: transform 0.3s ease;
+}
+
+.list-contacts a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+.contact:hover {
+    transform: scale(1.05);
+}
+
+.contact-icon {
+    width: 34px;
+    height: 34px;
+}
+
+.contact-text {
+    font-size: 1em;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    color: #fff;
+    margin: auto;
+    width: 50%; 
+    
+}
+
+
+/* FOOTER */
+footer {
+    background: linear-gradient(to right, #14031f, #3b2237) !important;
+    padding: 6px 0;
+}
+
+footer p {
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-size: 0.8em;
+    text-align: center;
+}
