@@ -16,7 +16,7 @@ Você pode visualizar o protótipo do portfólio no Figma [clicando aqui](https:
 
 ##
 
-### 🧩 Projetos citados
+### 💻 Projetos citados
 
 #### 🐾 [PetSystem](https://github.com/PetSystemUnicSul/PetSystem)
 Sistema para gestão de agendamentos de petshops, incluindo cadastro de tutores e animais, além de registros de consultas veterinárias, banhos ou tosas. Pensado para facilitar o acompanhamento de cuidados e histórico dos pets. Está em desenvolvimento.
