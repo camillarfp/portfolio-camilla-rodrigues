@@ -343,7 +343,7 @@ body {
     flex-wrap: wrap;
     justify-content: center; /* horizontal */
     align-items: center; /* vertical */
-    gap: 50px; /* espaçamento entre os cards */
+    gap: 150px; /* espaçamento entre os cards */
 }
 
 
@@ -377,7 +377,7 @@ body {
 .project-img {
     width: 100%; /* ocupa toda a largura do card */
     height: 180px; 
-    object-fit: fill;;
+    object-fit: fill;
 }
 
 .title-project {
@@ -405,6 +405,16 @@ body {
     
 }
 
+.link-project {
+    color: #fff;
+    text-align: right !important;
+}
+
+.link-project:hover {
+    text-decoration: underline;
+    color: rgb(235, 233, 137);
+}
+
 .project-skill-list {
     list-style: none;
     display: flex;
@@ -413,7 +423,7 @@ body {
     justify-content: center;
     align-items: center;
 
-    padding: 10px 0;
+    padding: 2px 0;
 }
 
 .project-skill {
