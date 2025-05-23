@@ -4,6 +4,9 @@ body {
     background: linear-gradient(to right, #14031f, #3b2237) !important;
 }
 
+header .navbar {
+    background: linear-gradient(to right, #14031f, #3b2237) !important;
+}
 
 /* navbar */
 .navbar {
@@ -91,7 +94,7 @@ body {
 }
 
 .star-icon:hover {
-    filter: drop-shadow(0 0 15px rgba(255, 215, 0, 1));
+    filter: drop-shadow(0 0 8px rgba(255, 215, 0, 1));
 }
 
 
@@ -224,7 +227,7 @@ body {
 }
 
 .list-contacts-about li a:hover {
-    filter: drop-shadow(0 0 20px rgba(255, 217, 0, 0.555));
+    filter: drop-shadow(0 0 20px rgba(255, 217, 0, 0.582));
 }
 
 .contact-icon-about {
